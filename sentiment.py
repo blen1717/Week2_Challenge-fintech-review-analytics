@@ -1,3 +1,7 @@
+"""
+scrape.py
+Scrapes Google Play reviews for CBE, BOA, Dashen using google-play-scraper.
+"""
 import pandas as pd
 from nltk.sentiment import SentimentIntensityAnalyzer
 import nltk
