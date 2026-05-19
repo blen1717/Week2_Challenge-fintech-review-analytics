@@ -1,3 +1,7 @@
+"""
+scrape.py
+Scrapes Google Play reviews for CBE, BOA, Dashen using google-play-scraper.
+"""
 import pandas as pd
 import re
 
