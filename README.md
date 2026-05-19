@@ -18,5 +18,19 @@
 - tests/ - unit tests
 - .github/workflows/ - CI/CD
 
+  ## Database Setup (PostgreSQL / Neon.tech)
+
+This project uses a PostgreSQL database to store cleaned reviews and analysis results.
+
+### Option A – Local PostgreSQL Installation
+
+1. Download and install PostgreSQL from [postgresql.org](https://www.postgresql.org/download/).
+2. During installation, set a password for the postgres user (remember it).
+3. Open psql (command line) and run:
+
+`sql
+CREATE DATABASE fintech_reviews;
+\c fintech_reviews;
+
 ## Limitations
 - Scraping returned 0 reviews due to regional restrictions; used synthetic dataset as backup.
